@@ -7,13 +7,13 @@ do {
         let pesoIdeal = parseFloat(prompt("¿Cual es tu peso Ideal?"));
         let pesoXsemana = parseFloat(prompt("¿Cuantos Kilos quieres bajar por semana?"));
         
-        let semana=1;
+        let semana = 0;
         
             while(pesoIdeal < pesoActual) {
                 pesoActual = pesoActual - pesoXsemana;
                 semana = semana+1;
             }
-        alert("Semas en las que tardaras en pornerte en forma: "+semana);
+        alert("Semas en las que tardaras en pornerte en forma: " + semana);
 
     }else if(opcionJuego === 1) {
             let numero1 = parseInt(prompt("Ingresa el primer Número"));
